@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
     public class HelloController {
         @GetMapping("/hello-world")
         public String HelloWorld() {
-            return "Hello world test reload auto 2eme fois et 3eme fois";
+            return "Hello world test reload auto 4eme fois";
         }
 
 }
